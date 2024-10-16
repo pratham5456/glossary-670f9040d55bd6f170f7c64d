@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CybeGloss - Your Cybersecurity Glossary</title>
+    <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2"></script>
+    
+</head>
+<body>
+    <header>
+    <div class="logo"><a href="/"><img src="https://examplecompany.com/images/logo.svg" /></a></div>
+    <nav>
+        <a href="https://examplecompany.com/">Home</a>
+    </nav>
+    <a class="grow-btn" href="https://examplecompany.com/auth">Get Started</a>
+</header>
+    <main class="homeMain">
+        <h1>CyberSecurity Glossary</h1>
+        <p>A comprehensive resource for cybersecurity definitions and concepts.</p>
+
+        <div id="search-container">
+            <input type="text" id="search-input" placeholder="Search for terms...">
+            <div id="search-results"></div>
+        </div>
+
+        <div id="content">
+            
+                <nav class="alphabet-nav">
+                    
+                        <a href="#category-A">A</a>
+                    
+                        <a href="#category-B">B</a>
+                    
+                        <a href="#category-C">C</a>
+                    
+                        <a href="#category-D">D</a>
+                    
+                        <a href="#category-E">E</a>
+                    
+                        <a href="#category-F">F</a>
+                    
+                        <a href="#category-I">I</a>
+                    
+                        <a href="#category-M">M</a>
+                    
+                        <a href="#category-N">N</a>
+                    
+                        <a href="#category-P">P</a>
+                    
+                        <a href="#category-R">R</a>
+                    
+                        <a href="#category-S">S</a>
+                    
+                        <a href="#category-T">T</a>
+                    
+                        <a href="#category-V">V</a>
+                    
+                        <a href="#category-Z">Z</a>
+                    
+                </nav>
+
+                
+                    <div id="category-A" class="category-section">
+                        <h2>A</h2>
+                        <ul>
+                            
+                                <li><a href="/access-control/">access control</a></li>
+                            
+                                <li><a href="/api-security/">API security</a></li>
+                            
+                        </ul>
+                    </div>
+                
+                    <div id="category-B" class="category-section">
+                        <h2>B</h2>
+                        <ul>
+                            
+                                <li><a href="/b2b-marketing/">B2B marketing</a></li>
+                            
+                                <li><a href="/business-continuity-planning/">business continuity planning</a></li>
+                            
+                        </ul>
+                    </div>
+                
+                    <div id="category-C" class="category-section">
+                        <h2>C</h2>
+                        <ul>
+                            
+                                <li><a href="/cybersecurity-regulations/">cybersecurity regulations</a></li>
+                            
+                                <li><a href="/cloud-security/">cloud security</a></li>
+                            
+                        </ul>
+                    </div>
+                
+                    <div id="category-D" class="category-section">
+                        <h2>D</h2>
+                        <ul>
+                            
+                                <li><a href="/data-breach/">data breach</a></li>
+                            
+                                <li><a href="/ddos-attacks/">DDoS attacks</a></li>
+                            
+                                <li><a href="/data-loss-prevention/">data loss prevention</a></li>
+                            
+                        </ul>
+                    </div>
+                
+                    <div id="category-E" class="category-section">
+                        <h2>E</h2>
+                        <ul>
+                            
+                                <li><a href="/ethical-marketing/">ethical marketing</a></li>
+                            
+                                <li><a href="/encryption/">encryption</a></li>
+                            
+                                <li><a href="/endpoint-protection/">endpoint protection</a></li>
+                            
+                        </ul>
+                    </div>
+                
+                    <div id="category-F" class="category-section">
+                        <h2>F</h2>
+                        <ul>
+                            
+                                <li><a href="/firewall/">firewall</a></li>
+                            
+                        </ul>
+                    </div>
+                
+                    <div id="category-I" class="category-section">
+                        <h2>I</h2>
+                        <ul>
+                            
+                                <li><a href="/intrusion-detection/">intrusion detection</a></li>
+                            
+                                <li><a href="/incident-response-plan/">incident response plan</a></li>
+                            
+                                <li><a href="/identity-management/">identity management</a></li>
+                            
+                        </ul>
+                    </div>
+                
+                    <div id="category-M" class="category-section">
+                        <h2>M</h2>
+                        <ul>
+                            
+                                <li><a href="/malware/">malware</a></li>
+                            
+                                <li><a href="/multi-factor-authentication/">multi-factor authentication</a></li>
+                            
+                        </ul>
+                    </div>
+                
+                    <div id="category-N" class="category-section">
+                        <h2>N</h2>
+                        <ul>
+                            
+                                <li><a href="/network-segmentation/">network segmentation</a></li>
+                            
+                        </ul>
+                    </div>
+                
+                    <div id="category-P" class="category-section">
+                        <h2>P</h2>
+                        <ul>
+                            
+                                <li><a href="/phishing/">phishing</a></li>
+                            
+                                <li><a href="/penetration-testing/">penetration testing</a></li>
+                            
+                                <li><a href="/patch-management/">patch management</a></li>
+                            
+                        </ul>
+                    </div>
+                
+                    <div id="category-R" class="category-section">
+                        <h2>R</h2>
+                        <ul>
+                            
+                                <li><a href="/ransomware/">ransomware</a></li>
+                            
+                                <li><a href="/regulatory-compliance/">regulatory compliance</a></li>
+                            
+                                <li><a href="/risk-management/">risk management</a></li>
+                            
+                        </ul>
+                    </div>
+                
+                    <div id="category-S" class="category-section">
+                        <h2>S</h2>
+                        <ul>
+                            
+                                <li><a href="/security-awareness-training/">security awareness training</a></li>
+                            
+                                <li><a href="/social-engineering/">social engineering</a></li>
+                            
+                                <li><a href="/secure-coding-practices/">secure coding practices</a></li>
+                            
+                        </ul>
+                    </div>
+                
+                    <div id="category-T" class="category-section">
+                        <h2>T</h2>
+                        <ul>
+                            
+                                <li><a href="/threat-intelligence/">threat intelligence</a></li>
+                            
+                                <li><a href="/third-party-risk-management/">third-party risk management</a></li>
+                            
+                        </ul>
+                    </div>
+                
+                    <div id="category-V" class="category-section">
+                        <h2>V</h2>
+                        <ul>
+                            
+                                <li><a href="/vulnerability-assessment/">vulnerability assessment</a></li>
+                            
+                        </ul>
+                    </div>
+                
+                    <div id="category-Z" class="category-section">
+                        <h2>Z</h2>
+                        <ul>
+                            
+                                <li><a href="/zero-trust-architecture/">zero trust architecture</a></li>
+                            
+                        </ul>
+                    </div>
+                
+            
+    </div>
+    </main>
+    <footer>
+    <div class="logo">
+        <a href="/">
+            <img src="https://examplecompany.com/images/logo.svg" alt="{{ProjectName}} Logo" />
+        </a>
+    </div>
+    <div class="footer-content">
+        <div class="copyright">
+            © Copyright 2022 - 2023 company.
+        </div>
+        <nav class="footer-nav">
+            <a href="https://examplecompany.com/">Home</a>
+            
+                
+                    <a href="https://twitter.com/examplecompany" target="_blank" rel="noopener noreferrer">
+                        Twitter
+                    </a>
+                
+                    <a href="https://www.linkedin.com/company/examplecompany" target="_blank" rel="noopener noreferrer">
+                        LinkedIn
+                    </a>
+                
+                    <a href="https://www.instagram.com/example_company/" target="_blank" rel="noopener noreferrer">
+                        Instagram
+                    </a>
+                
+            
+        </nav>
+    </div>
+</footer>
+    <script>
+        // Prepare data for Fuse.js
+        const searchData = [
+            
+                
+                    {
+                        title: 'access control',
+                        category: 'A',
+                        url: '/access-control/',
+                        content: 'The process of restricting access to resources or information to authorized users only.'
+                    },
+                
+                    {
+                        title: 'API security',
+                        category: 'A',
+                        url: '/api-security/',
+                        content: 'API security refers to the measures and practices used to protect Application Programming Interfaces (APIs) from malicious attacks and unauthorized access.'
+                    },
+                
+            
+                
+                    {
+                        title: 'B2B marketing',
+                        category: 'B',
+                        url: '/b2b-marketing/',
+                        content: 'Business-to-Business marketing, a strategy focused on selling products or services to other businesses.'
+                    },
+                
+                    {
+                        title: 'business continuity planning',
+                        category: 'B',
+                        url: '/business-continuity-planning/',
+                        content: 'A strategic approach to ensure that business operations can continue during and after a disruption.'
+                    },
+                
+            
+                
+                    {
+                        title: 'cybersecurity regulations',
+                        category: 'C',
+                        url: '/cybersecurity-regulations/',
+                        content: 'Cybersecurity regulations are laws and guidelines designed to protect sensitive information and ensure the security of digital systems.'
+                    },
+                
+                    {
+                        title: 'cloud security',
+                        category: 'C',
+                        url: '/cloud-security/',
+                        content: 'Cloud security refers to the set of policies, technologies, and controls deployed to protect data, applications, and infrastructure associated with cloud computing.'
+                    },
+                
+            
+                
+                    {
+                        title: 'data breach',
+                        category: 'D',
+                        url: '/data-breach/',
+                        content: 'An incident where unauthorized access to sensitive data occurs, compromising the confidentiality, integrity, or availability of that data.'
+                    },
+                
+                    {
+                        title: 'DDoS attacks',
+                        category: 'D',
+                        url: '/ddos-attacks/',
+                        content: 'DDoS (Distributed Denial of Service) attacks are malicious attempts to disrupt the normal functioning of a targeted server, service, or network by overwhelming it with a flood of internet traffic.'
+                    },
+                
+                    {
+                        title: 'data loss prevention',
+                        category: 'D',
+                        url: '/data-loss-prevention/',
+                        content: 'Data Loss Prevention (DLP) refers to strategies and tools designed to prevent the unauthorized access, transfer, or loss of sensitive data.'
+                    },
+                
+            
+                
+                    {
+                        title: 'ethical marketing',
+                        category: 'E',
+                        url: '/ethical-marketing/',
+                        content: 'The practice of promoting products or services in a manner that is honest, transparent, and respects consumer rights and societal norms.'
+                    },
+                
+                    {
+                        title: 'encryption',
+                        category: 'E',
+                        url: '/encryption/',
+                        content: 'A method of converting information or data into a code to prevent unauthorized access.'
+                    },
+                
+                    {
+                        title: 'endpoint protection',
+                        category: 'E',
+                        url: '/endpoint-protection/',
+                        content: 'A cybersecurity approach focused on securing endpoints or entry points of end-user devices against threats.'
+                    },
+                
+            
+                
+                    {
+                        title: 'firewall',
+                        category: 'F',
+                        url: '/firewall/',
+                        content: 'A security system that monitors and controls incoming and outgoing network traffic based on predetermined security rules.'
+                    },
+                
+            
+                
+                    {
+                        title: 'intrusion detection',
+                        category: 'I',
+                        url: '/intrusion-detection/',
+                        content: 'The process of monitoring network or system activities for malicious activities or policy violations.'
+                    },
+                
+                    {
+                        title: 'incident response plan',
+                        category: 'I',
+                        url: '/incident-response-plan/',
+                        content: 'A structured approach for managing and responding to cybersecurity incidents.'
+                    },
+                
+                    {
+                        title: 'identity management',
+                        category: 'I',
+                        url: '/identity-management/',
+                        content: 'Identity management refers to the processes and technologies that organizations use to manage digital identities and access permissions.'
+                    },
+                
+            
+                
+                    {
+                        title: 'malware',
+                        category: 'M',
+                        url: '/malware/',
+                        content: 'Malware is malicious software designed to disrupt, damage, or gain unauthorized access to computer systems.'
+                    },
+                
+                    {
+                        title: 'multi-factor authentication',
+                        category: 'M',
+                        url: '/multi-factor-authentication/',
+                        content: 'A security mechanism that requires multiple forms of verification to access an account or system.'
+                    },
+                
+            
+                
+                    {
+                        title: 'network segmentation',
+                        category: 'N',
+                        url: '/network-segmentation/',
+                        content: 'The practice of dividing a computer network into smaller, manageable segments to enhance security and performance.'
+                    },
+                
+            
+                
+                    {
+                        title: 'phishing',
+                        category: 'P',
+                        url: '/phishing/',
+                        content: 'Phishing is a cyber attack that uses deceptive communication to trick individuals into providing sensitive information.'
+                    },
+                
+                    {
+                        title: 'penetration testing',
+                        category: 'P',
+                        url: '/penetration-testing/',
+                        content: 'A simulated cyber attack against a computer system to evaluate its security.'
+                    },
+                
+                    {
+                        title: 'patch management',
+                        category: 'P',
+                        url: '/patch-management/',
+                        content: 'The process of managing updates for software applications and technologies.'
+                    },
+                
+            
+                
+                    {
+                        title: 'ransomware',
+                        category: 'R',
+                        url: '/ransomware/',
+                        content: 'A type of malicious software that encrypts a victim&#39;s data, demanding a ransom for decryption.'
+                    },
+                
+                    {
+                        title: 'regulatory compliance',
+                        category: 'R',
+                        url: '/regulatory-compliance/',
+                        content: 'The adherence to laws, regulations, guidelines, and specifications relevant to an organization&#39;s business processes.'
+                    },
+                
+                    {
+                        title: 'risk management',
+                        category: 'R',
+                        url: '/risk-management/',
+                        content: 'The process of identifying, assessing, and mitigating risks associated with cybersecurity threats in B2B marketing.'
+                    },
+                
+            
+                
+                    {
+                        title: 'security awareness training',
+                        category: 'S',
+                        url: '/security-awareness-training/',
+                        content: 'Training designed to educate employees about cybersecurity risks and best practices.'
+                    },
+                
+                    {
+                        title: 'social engineering',
+                        category: 'S',
+                        url: '/social-engineering/',
+                        content: 'Manipulative tactics used to exploit human psychology in order to gain confidential information or access.'
+                    },
+                
+                    {
+                        title: 'secure coding practices',
+                        category: 'S',
+                        url: '/secure-coding-practices/',
+                        content: 'Guidelines and techniques aimed at writing software that minimizes security vulnerabilities.'
+                    },
+                
+            
+                
+                    {
+                        title: 'threat intelligence',
+                        category: 'T',
+                        url: '/threat-intelligence/',
+                        content: 'The collection and analysis of information about potential or current threats to an organization&#39;s cybersecurity.'
+                    },
+                
+                    {
+                        title: 'third-party risk management',
+                        category: 'T',
+                        url: '/third-party-risk-management/',
+                        content: 'The process of identifying, assessing, and mitigating risks associated with third-party vendors and partners.'
+                    },
+                
+            
+                
+                    {
+                        title: 'vulnerability assessment',
+                        category: 'V',
+                        url: '/vulnerability-assessment/',
+                        content: 'A systematic evaluation of security weaknesses in an information system.'
+                    },
+                
+            
+                
+                    {
+                        title: 'zero trust architecture',
+                        category: 'Z',
+                        url: '/zero-trust-architecture/',
+                        content: 'A cybersecurity framework that requires strict identity verification for every person and device accessing resources, regardless of whether they are inside or outside the network perimeter.'
+                    },
+                
+            
+        ];
+
+        // Initialize Fuse with the search data
+        const fuse = new Fuse(searchData, {
+            keys: ['title', 'category', 'content'],
+            threshold: 0.3,
+            includeScore: true
+        });
+
+        // Search functionality
+        const searchInput = document.getElementById('search-input');
+        const searchResults = document.getElementById('search-results');
+        const content = document.getElementById('content');
+
+        searchInput.addEventListener('input', function() {
+            const query = this.value;
+            if (query.length > 2) {
+                const results = fuse.search(query);
+                displayResults(results);
+            } else {
+                searchResults.innerHTML = '';
+                content.style.display = 'block';
+            }
+        });
+
+        function displayResults(results) {
+            if (results.length === 0) {
+                searchResults.innerHTML = '<p>No results found.</p>';
+                content.style.display = 'none';
+                return;
+            }
+
+            let html = '<ul>';
+            results.forEach(result => {
+                html += `<li><a href="${result.item.url}">${result.item.title}</a> (${result.item.category})</li>`;
+            });
+            html += '</ul>';
+
+            searchResults.innerHTML = html;
+            content.style.display = 'none';
+        }
+
+        // Smooth scrolling for alphabet navigation
+        document.querySelectorAll('.alphabet-nav a').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
